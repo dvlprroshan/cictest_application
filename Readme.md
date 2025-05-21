@@ -4,18 +4,21 @@
 
 install php and composer and then run these command
 
+```bash
 composer install
 php artisan key:gen
 cp .env.example .env
 #change configuration of datbase postgress or any other 
 php artisan migrate:fresh --seed
 php artisan serve 
+```
 
 ## frontend
 
+```bash
 npm i 
 npm run dev
-
+```
 #screenshot
 
 ![image](https://github.com/user-attachments/assets/8d012be8-39ef-4f4d-bc8a-dfac1a00b05f)
